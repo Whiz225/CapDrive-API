@@ -1,0 +1,44 @@
+{
+  "name": "car-marketplace-backend",
+  "version": "1.0.0",
+  "description": "Car Marketplace & Ride Booking Platform API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bull": "^4.11.5",
+    "cloudinary": "^1.41.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.10.0",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^11.11.0",
+    "flutterwave-node-v3": "^1.0.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.5",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "paystack": "^2.0.0",
+    "redis": "^4.6.8",
+    "socket.io": "^4.7.2",
+    "twilio": "^4.19.3",
+    "winston": "^3.10.0",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
