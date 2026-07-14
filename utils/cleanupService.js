@@ -1,10 +1,10 @@
 // backend/src/utils/cleanupService.js
 
 const cron = require("node-cron");
-const User = require("../models/User");
-const Car = require("../models/Car");
-const Booking = require("../models/Booking");
-const Payment = require("../models/Payment");
+const User = require("./models/User");
+const Car = require("./models/Car");
+const Booking = require("./models/Booking");
+const Payment = require("./models/Payment");
 
 // Clean up expired verification tokens
 const cleanupExpiredTokens = async () => {
