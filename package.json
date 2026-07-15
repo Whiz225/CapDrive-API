@@ -1,5 +1,5 @@
 {
-  "name": "car-marketplace-backend",
+  "name": "capDrive API",
   "version": "1.0.0",
   "description": "Car Marketplace & Ride Booking Platform API",
   "main": "server.js",
